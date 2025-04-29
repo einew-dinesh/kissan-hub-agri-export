@@ -1,9 +1,44 @@
 import ContactForm from '@/components/contact/ContactForm';
+import { Suspense } from 'react';
 
 export const metadata = {
   title: 'Contact Us | Swarnupaj Premium Agricultural Exports',
   description: 'Contact Swarnupaj for premium quality agricultural products direct from farmers in India. Get in touch for quotes, information, or partnership opportunities.',
 };
+
+// Loading fallback for ContactForm
+function ContactFormSkeleton() {
+  return (
+    <div className="bg-white rounded-lg shadow-md p-8 animate-pulse">
+      <div className="h-8 bg-gray-200 rounded w-3/4 mb-6"></div>
+      <div className="space-y-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+          <div>
+            <div className="h-5 bg-gray-200 rounded w-1/3 mb-2"></div>
+            <div className="h-10 bg-gray-200 rounded w-full"></div>
+          </div>
+          <div>
+            <div className="h-5 bg-gray-200 rounded w-1/3 mb-2"></div>
+            <div className="h-10 bg-gray-200 rounded w-full"></div>
+          </div>
+          <div>
+            <div className="h-5 bg-gray-200 rounded w-1/3 mb-2"></div>
+            <div className="h-10 bg-gray-200 rounded w-full"></div>
+          </div>
+          <div>
+            <div className="h-5 bg-gray-200 rounded w-1/3 mb-2"></div>
+            <div className="h-10 bg-gray-200 rounded w-full"></div>
+          </div>
+        </div>
+        <div>
+          <div className="h-5 bg-gray-200 rounded w-1/3 mb-2"></div>
+          <div className="h-32 bg-gray-200 rounded w-full"></div>
+        </div>
+        <div className="h-10 bg-gray-200 rounded w-1/4 mt-6"></div>
+      </div>
+    </div>
+  );
+}
 
 export default function ContactPage() {
   return (
@@ -35,7 +70,9 @@ export default function ContactPage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             <div className="lg:col-span-2">
-              <ContactForm />
+              <Suspense fallback={<ContactFormSkeleton />}>
+                <ContactForm />
+              </Suspense>
             </div>
             
             <div>

@@ -2,15 +2,23 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import CTAButton from '@/components/ui/CTAButton';
 import products from '@/data/products';
+import { Metadata } from 'next';
 
-interface ProductPageProps {
-  params: {
-    productId: string;
-  };
-}
+// Define the shape of the params
+type ProductIdParams = {
+  productId: string;
+};
 
-export function generateMetadata({ params }: ProductPageProps) {
-  const product = products.find((p) => p.id === params.productId);
+// Define props for the page component with both params and searchParams as Promises
+type Props = {
+  params: Promise<ProductIdParams>;
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
+};
+
+export async function generateMetadata({ params }: { params: Promise<ProductIdParams> }): Promise<Metadata> {
+  // Await the params Promise to get the actual values
+  const resolvedParams = await params;
+  const product = products.find((p) => p.id === resolvedParams.productId);
   
   if (!product) {
     return {
@@ -25,14 +33,16 @@ export function generateMetadata({ params }: ProductPageProps) {
   };
 }
 
-export function generateStaticParams() {
+export function generateStaticParams(): ProductIdParams[] {
   return products.map((product) => ({
     productId: product.id,
   }));
 }
 
-export default function ProductPage({ params }: ProductPageProps) {
-  const product = products.find((p) => p.id === params.productId);
+export default async function ProductPage({ params, searchParams }: Props) {
+  // Await the params Promise to get the actual values
+  const resolvedParams = await params;
+  const product = products.find((p) => p.id === resolvedParams.productId);
   
   if (!product) {
     notFound();
