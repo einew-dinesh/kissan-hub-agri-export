@@ -52,13 +52,13 @@ export default function FeaturedProducts() {
                 <div className="absolute inset-0 bg-gray-300 flex items-center justify-center">
                   <span className="text-gray-500">{product.name} image</span>
                 </div>
-                {/* Uncomment when images are available */}
-                {/* <Image 
+                {/* Image is now available */}
+                <Image 
                   src={product.image}
                   alt={product.imageAlt}
                   fill
                   className="object-cover"
-                /> */}
+                />
               </div>
               
               <div className="p-6">

@@ -20,7 +20,7 @@ const products: Product[] = [
     longDescription: `
       Our premium cumin seeds are sourced directly from the fertile fields of Gujarat and Rajasthan, India. Known for their distinct aroma and rich flavor, these seeds are carefully cultivated by our partner farmers using traditional methods.
       
-      Swarnupaj cumin seeds stand out for their high essential oil content, which is responsible for the intense aroma and flavor that elevates any dish. Our cumin undergoes rigorous cleaning and quality control processes to ensure purity and consistency.
+      Sourceseed cumin seeds stand out for their high essential oil content, which is responsible for the intense aroma and flavor that elevates any dish. Our cumin undergoes rigorous cleaning and quality control processes to ensure purity and consistency.
       
       Whether for culinary applications in global cuisines or for extraction of essential oils, our cumin seeds provide exceptional quality that meets international standards.
     `,
@@ -55,7 +55,7 @@ const products: Product[] = [
     name: 'Saunf (Fennel)',
     shortDescription: 'Sweet and aromatic fennel seeds, harvested at the peak of freshness to preserve flavor and aroma.',
     longDescription: `
-      Swarnupaj offers premium quality fennel seeds (saunf) sourced from dedicated farmers in Gujarat, India. Our fennel is known for its sweet, licorice-like flavor and aromatic properties that make it a favorite in both culinary and medicinal applications worldwide.
+      Sourceseed offers premium quality fennel seeds (saunf) sourced from dedicated farmers in Gujarat, India. Our fennel is known for its sweet, licorice-like flavor and aromatic properties that make it a favorite in both culinary and medicinal applications worldwide.
       
       We carefully time the harvest to ensure the seeds are collected at their peak ripeness, maximizing their essential oil content and flavor profile. Our processing methods preserve the natural quality of the seeds while ensuring they meet the highest standards of cleanliness and purity.
       
@@ -91,7 +91,7 @@ const products: Product[] = [
     name: 'Bajra (Pearl Millet)',
     shortDescription: 'Nutritious pearl millet grains, cultivated with sustainable practices for export quality results.',
     longDescription: `
-      Swarnupaj offers premium quality bajra (pearl millet) that combines nutritional excellence with sustainable farming practices. Our bajra is sourced from select farming regions in Rajasthan and Gujarat where the climate and soil conditions are ideal for producing high-quality millet.
+      Sourceseed offers premium quality bajra (pearl millet) that combines nutritional excellence with sustainable farming practices. Our bajra is sourced from select farming regions in Rajasthan and Gujarat where the climate and soil conditions are ideal for producing high-quality millet.
       
       Rich in protein, fiber, and essential minerals like iron and zinc, our bajra is a nutritional powerhouse that meets the growing global demand for healthy grain alternatives. The cultivation process emphasizes sustainability, with careful water management and minimal chemical inputs.
       
@@ -128,7 +128,7 @@ const products: Product[] = [
     name: 'IPM Cumin',
     shortDescription: 'Integrated Pest Management cumin, grown with reduced pesticide usage for a safer, premium product.',
     longDescription: `
-      Swarnupaj's IPM (Integrated Pest Management) Cumin represents our commitment to sustainable agriculture and food safety. This premium cumin is cultivated using IPM methods that minimize chemical pesticide use while maintaining excellent crop protection.
+      Sourceseed's IPM (Integrated Pest Management) Cumin represents our commitment to sustainable agriculture and food safety. This premium cumin is cultivated using IPM methods that minimize chemical pesticide use while maintaining excellent crop protection.
       
       Our partner farmers implement comprehensive pest management strategies including biological controls, crop rotation, and targeted interventions only when necessary. This approach results in cumin that contains significantly lower pesticide residues while maintaining the exceptional quality and flavor characteristics that our customers expect.
       

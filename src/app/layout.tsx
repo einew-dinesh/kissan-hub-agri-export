@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Swarnupaj - Premium Agricultural Exports",
-  description: "Swarnupaj specializes in sourcing high-quality cumin, saunf, bajra and IPM cumin directly from farmers for export and industrial supply.",
+  title: "Sourceseed - Premium Agricultural Exports",
+  description: "Sourceseed specializes in sourcing high-quality cumin, saunf, bajra and IPM cumin directly from farmers for export and industrial supply.",
 };
 
 export default function RootLayout({

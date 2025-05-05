@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { contactInfo } from '@/data/contactInfo';
 
 export default function Footer() {
   return (
@@ -6,7 +7,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Swarnupaj</h3>
+            <h3 className="text-xl font-bold mb-4">Sourceseed</h3>
             <p className="text-gray-300 mb-4">
               Procuring premium agricultural products directly from farmers and FPOs for export and industrial supply.
             </p>
@@ -78,8 +79,8 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <address className="not-italic text-gray-300 space-y-2">
-              <p>Email: info@swarnupaj.com</p>
-              <p>Phone: +91 12345 67890</p>
+              <p>Email: {contactInfo.email}</p>
+              <p>Phone: {contactInfo.phone}</p>
             </address>
             <div className="mt-4 flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-white">
@@ -105,7 +106,7 @@ export default function Footer() {
         </div>
         
         <div className="mt-12 border-t border-gray-700 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Swarnupaj. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Sourceseed. All rights reserved.</p>
         </div>
       </div>
     </footer>

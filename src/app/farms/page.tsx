@@ -67,7 +67,7 @@ export default function FarmsPage() {
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Farm Locations</h2>
             <p className="text-lg text-gray-600">
-              At Swarnupaj, we own and operate farms across Gujarat and Rajasthan. We work directly 
+              At Sourceseed, we own and operate farms across Gujarat and Rajasthan. We work directly 
               with farmers and FPOs to implement sustainable farming practices while ensuring premium quality products.
             </p>
           </div>
@@ -127,7 +127,7 @@ export default function FarmsPage() {
             <div className="bg-green-50 border border-green-200 rounded-lg p-6">
               <h4 className="text-xl font-semibold text-green-800 mb-3">Interested in Partnering with Us?</h4>
               <p className="text-gray-700 mb-4">
-                If you're a farmer or part of an FPO looking to collaborate with Swarnupaj, 
+                If you're a farmer or part of an FPO looking to collaborate with Sourceseed, 
                 we'd love to hear from you.
               </p>
               <a 

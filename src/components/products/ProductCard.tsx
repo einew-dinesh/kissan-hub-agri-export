@@ -17,13 +17,13 @@ export default function ProductCard({ id, name, description, image, imageAlt }: 
         <div className="absolute inset-0 bg-gray-300 flex items-center justify-center">
           <span className="text-gray-500">{name} image</span>
         </div>
-        {/* Uncomment when images are available */}
-        {/* <Image 
+        {/* Image is now available */}
+        <Image 
           src={image}
           alt={imageAlt}
           fill
           className="object-cover"
-        /> */}
+        />
       </div>
       
       <div className="p-6">

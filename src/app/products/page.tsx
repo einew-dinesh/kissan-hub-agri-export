@@ -3,7 +3,7 @@ import products from '@/data/products';
 import CTAButton from '@/components/ui/CTAButton';
 
 export const metadata = {
-  title: 'Products | Swarnupaj Premium Agricultural Exports',
+  title: 'Products | Sourceseed Premium Agricultural Exports',
   description: 'Explore our premium agricultural products including cumin, saunf (fennel), bajra (pearl millet), and IPM cumin.',
 };
 

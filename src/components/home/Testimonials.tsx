@@ -5,19 +5,19 @@ import { useState } from 'react';
 export default function Testimonials() {
   const testimonials = [
     {
-      quote: "Swarnupaj has been our trusted supplier for three years now. Their cumin quality is consistently excellent, and their direct sourcing from farmers is something we really value.",
+      quote: "Sourceseed has been our trusted supplier for three years now. Their cumin quality is consistently excellent, and their direct sourcing from farmers is something we really value.",
       author: "John Smith",
       company: "Global Spice Imports, USA",
       avatar: "/images/testimonials/avatar1.jpg"
     },
     {
-      quote: "What sets Swarnupaj apart is their commitment to quality. Their IPM cumin meets our stringent standards, and their traceability to the farm level gives us great confidence in their products.",
+      quote: "What sets Sourceseed apart is their commitment to quality. Their IPM cumin meets our stringent standards, and their traceability to the farm level gives us great confidence in their products.",
       author: "Marie Dubois",
       company: "European Gourmet Foods, France",
       avatar: "/images/testimonials/avatar2.jpg"
     },
     {
-      quote: "We've been importing bajra from Swarnupaj for our organic food line, and the response from our customers has been overwhelmingly positive. Their dedication to sustainable farming practices aligns perfectly with our brand values.",
+      quote: "We've been importing bajra from Sourceseed for our organic food line, and the response from our customers has been overwhelmingly positive. Their dedication to sustainable farming practices aligns perfectly with our brand values.",
       author: "Raj Patel",
       company: "Organic Essentials, UK",
       avatar: "/images/testimonials/avatar3.jpg"
@@ -59,16 +59,16 @@ export default function Testimonials() {
                 >
                   <p className="text-xl md:text-2xl text-gray-700 italic mb-8">"{testimonial.quote}"</p>
                   <div className="flex items-center">
-                    <div className="w-12 h-12 rounded-full bg-gray-300 mr-4">
-                      {/* This would be replaced with actual images when available */}
-                      {/* <Image
+                    {/* <div className="w-12 h-12 rounded-full bg-gray-300 mr-4">
+                      This would be replaced with actual images when available
+                      <Image
                         src={testimonial.avatar}
                         alt={`Portrait of ${testimonial.author}`}
                         width={48}
                         height={48}
                         className="rounded-full"
-                      /> */}
-                    </div>
+                      />
+                    </div> */}
                     <div>
                       <p className="font-bold text-gray-900">{testimonial.author}</p>
                       <p className="text-gray-600">{testimonial.company}</p>
@@ -115,4 +115,4 @@ export default function Testimonials() {
       </div>
     </section>
   );
-} 
+}

@@ -44,7 +44,7 @@ export default function Features() {
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800">Why Choose Swarnupaj?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800">Why Choose Sourceseed?</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Our commitment to quality, sustainability, and fair trade sets us apart in the agricultural export industry.
           </p>

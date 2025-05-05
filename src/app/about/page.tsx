@@ -2,8 +2,8 @@ import Image from 'next/image';
 import CTAButton from '@/components/ui/CTAButton';
 
 export const metadata = {
-  title: 'About Swarnupaj | Premium Agricultural Exports',
-  description: 'Learn about Swarnupaj, our mission, values, and commitment to connecting farmers directly with global markets.',
+  title: 'About Sourceseed | Premium Agricultural Exports',
+  description: 'Learn about Sourceseed, our mission, values, and commitment to connecting farmers directly with global markets.',
 };
 
 export default function AboutPage() {
@@ -23,7 +23,7 @@ export default function AboutPage() {
         
         <div className="container mx-auto px-4 z-10 relative text-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6">
-            About Swarnupaj
+            About Sourceseed
           </h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">
             Connecting farmers to global markets with transparency, quality, and integrity
@@ -38,13 +38,13 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-800">Our Story</h2>
               <p className="text-lg text-gray-600 mb-4">
-                Swarnupaj was founded with a simple yet powerful vision: to create a direct bridge between hardworking Indian farmers and global markets, ensuring fair prices for producers and premium quality for buyers.
+                Sourceseed was founded with a simple yet powerful vision: to create a direct bridge between hardworking Indian farmers and global markets, ensuring fair prices for producers and premium quality for buyers.
               </p>
               <p className="text-lg text-gray-600 mb-4">
                 Our journey began in the agricultural heartlands of India, where we witnessed firsthand the challenges faced by farmers in getting fair value for their high-quality produce. We also recognized the growing global demand for premium Indian agricultural products like cumin, saunf, and bajra.
               </p>
               <p className="text-lg text-gray-600">
-                Today, Swarnupaj stands as a trusted name in agricultural exports, known for our commitment to quality, sustainability, and direct farmer sourcing.
+                Today, Sourceseed stands as a trusted name in agricultural exports, known for our commitment to quality, sustainability, and direct farmer sourcing.
               </p>
             </div>
             <div className="relative h-[400px] bg-gray-200 rounded-lg overflow-hidden">
@@ -55,7 +55,7 @@ export default function AboutPage() {
               {/* Uncomment when image is available */}
               {/* <Image 
                 src="/images/about/our-story.jpg"
-                alt="Swarnupaj founders with farmers"
+                alt="Sourceseed founders with farmers"
                 fill
                 className="object-cover"
               /> */}
@@ -174,7 +174,7 @@ export default function AboutPage() {
       {/* CTA */}
       <section className="bg-green-700 py-16">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Ready to Partner with Swarnupaj?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Ready to Partner with Sourceseed?</h2>
           <p className="text-xl text-green-50 max-w-3xl mx-auto mb-8">
             Join us in our mission to bring premium Indian agricultural products to the world.
           </p>

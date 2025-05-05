@@ -1,9 +1,10 @@
 import ContactForm from '@/components/contact/ContactForm';
 import { Suspense } from 'react';
+import { contactInfo } from '@/data/contactInfo';
 
 export const metadata = {
-  title: 'Contact Us | Swarnupaj Premium Agricultural Exports',
-  description: 'Contact Swarnupaj for premium quality agricultural products direct from farmers in India. Get in touch for quotes, information, or partnership opportunities.',
+  title: 'Contact Us | Sourceseed Premium Agricultural Exports',
+  description: 'Contact Sourceseed for premium quality agricultural products direct from farmers in India. Get in touch for quotes, information, or partnership opportunities.',
 };
 
 // Loading fallback for ContactForm
@@ -83,17 +84,17 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-lg font-semibold mb-2 text-gray-700">Address</h3>
                     <address className="text-gray-600 not-italic">
-                      Swarnupaj Agri Exports<br />
-                      123 Export Zone,<br />
-                      Gujarat, India 380015
+                      Sourceseed Agri Exports<br />
+                      Piplod, Surat<br />
+                      Gujarat, India 395007
                     </address>
                   </div>
                   
                   <div>
                     <h3 className="text-lg font-semibold mb-2 text-gray-700">Contact Details</h3>
                     <p className="text-gray-600">
-                      <strong>Phone:</strong> +91 12345 67890<br />
-                      <strong>Email:</strong> info@swarnupaj.com
+                      <strong>Phone:</strong> {contactInfo.phone}<br />
+                      <strong>Email:</strong> {contactInfo.email}
                     </p>
                   </div>
                   
@@ -106,7 +107,7 @@ export default function ContactPage() {
                     </p>
                   </div>
                   
-                  <div>
+                  {/* <div>
                     <h3 className="text-lg font-semibold mb-2 text-gray-700">Follow Us</h3>
                     <div className="flex space-x-4">
                       <a href="#" className="text-gray-600 hover:text-green-600">
@@ -134,7 +135,7 @@ export default function ContactPage() {
                         </svg>
                       </a>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -143,14 +144,14 @@ export default function ContactPage() {
       </section>
       
       {/* Map section - Would use an actual map in production */}
-      <section className="py-12 bg-gray-50">
+      {/* <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold mb-6 text-gray-800">Find Us</h2>
           <div className="h-96 bg-gray-300 rounded-lg flex items-center justify-center">
             <p className="text-gray-600">Interactive map would be embedded here</p>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 } 

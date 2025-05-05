@@ -7,7 +7,7 @@ export default function Hero() {
       <div 
         className="absolute inset-0 bg-cover bg-center z-0" 
         style={{ 
-          backgroundImage: 'url("/images/hero-bg.jpg")',
+          backgroundImage: 'url("/images/hero-bg.png")',
           backgroundPosition: 'center',
           filter: 'brightness(0.5)'
         }}
@@ -19,7 +19,7 @@ export default function Hero() {
             Premium Agricultural Exports Direct from Farmers
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 mb-8">
-            At Swarnupaj, we procure directly from farmers and FPOs (Farmer Producer Organizations), 
+            At Sourceseed, we procure directly from farmers and FPOs (Farmer Producer Organizations), 
             ensuring better incomes for producers and premium quality for you.
           </p>
           <div className="flex justify-center sm:justify-start">

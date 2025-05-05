@@ -1,6 +1,6 @@
-# Swarnupaj Agricultural Exports Website
+# Sourceseed Agricultural Exports Website
 
-A modern website built with Next.js and Tailwind CSS for Swarnupaj, a company specializing in sourcing premium agricultural products like cumin, saunf (fennel), bajra (pearl millet), and IPM cumin directly from farmers.
+A modern website built with Next.js and Tailwind CSS for Sourceseed, a company specializing in sourcing premium agricultural products like cumin, saunf (fennel), bajra (pearl millet), and IPM cumin directly from farmers.
 
 ## Features
 
@@ -23,8 +23,8 @@ A modern website built with Next.js and Tailwind CSS for Swarnupaj, a company sp
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/swarnupaj-website.git
-cd swarnupaj-website
+git clone https://github.com/your-username/sourceseed-website.git
+cd sourceseed-website
 ```
 
 2. Install dependencies:

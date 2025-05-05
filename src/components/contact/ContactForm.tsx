@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
 import products from '@/data/products';
+import { contactInfo } from '@/data/contactInfo';
 
 export default function ContactForm() {
   const searchParams = useSearchParams();

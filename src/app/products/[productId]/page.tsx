@@ -22,13 +22,13 @@ export async function generateMetadata({ params }: { params: Promise<ProductIdPa
   
   if (!product) {
     return {
-      title: 'Product Not Found | Swarnupaj',
+      title: 'Product Not Found | Sourceseed',
       description: 'The requested product could not be found.',
     };
   }
   
   return {
-    title: `${product.name} | Swarnupaj Premium Agricultural Exports`,
+    title: `${product.name} | Sourceseed Premium Agricultural Exports`,
     description: product.shortDescription,
   };
 }
@@ -81,13 +81,13 @@ export default async function ProductPage({ params, searchParams }: Props) {
               <div className="absolute inset-0 bg-gray-300 flex items-center justify-center">
                 <span className="text-gray-500">{product.name} image</span>
               </div>
-              {/* Uncomment when image is available */}
-              {/* <Image 
+              {/* Image is now available */}
+              <Image 
                 src={product.image}
                 alt={product.imageAlt}
                 fill
                 className="object-cover"
-              /> */}
+              />
             </div>
             
             <div>
@@ -183,13 +183,13 @@ export default async function ProductPage({ params, searchParams }: Props) {
                     <div className="absolute inset-0 bg-gray-300 flex items-center justify-center">
                       <span className="text-gray-500">{relatedProduct.name} image</span>
                     </div>
-                    {/* Uncomment when image is available */}
-                    {/* <Image 
+                    {/* Image is now available */}
+                    <Image 
                       src={relatedProduct.image}
                       alt={relatedProduct.imageAlt}
                       fill
                       className="object-cover"
-                    /> */}
+                    />
                   </div>
                   
                   <div className="p-6">
